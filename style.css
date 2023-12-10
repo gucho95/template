@@ -61,6 +61,12 @@ body {
 }
 
 .content-block h3,
+.content-block p:last-child {
+  margin: 0;
+  padding: 8px 0;
+}
+
+.content-block h3,
 h4 {
   text-align: left;
 }
