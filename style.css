@@ -41,6 +41,7 @@ body {
 }
 
 .content-body {
+  flex: 1;
   padding: 0px 10px;
 }
 
@@ -112,6 +113,9 @@ h4 {
   .content-block:first-child > .content-body {
     border-right: 1px solid lightgray;
   }
+  .divider-vertical {
+    border-right: 1px solid lightgray;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -132,6 +136,10 @@ h4 {
   }
 
   .divider-horizontal {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .divider-vertical {
     border-bottom: 1px solid lightgray;
   }
 }
