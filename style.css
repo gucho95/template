@@ -84,17 +84,21 @@ h4 {
 
 #form-section button {
   background: #022f56;
-  padding: 12px 6px;
+  padding: 12px 12px;
   color: white;
   margin-top: 8px;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
 }
 
 #form-section #input-group {
   display: flex;
 }
 
-#form-section #input-group input {
-  flex: 1;
+#form-section form {
+  width: 300px;
+  margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -115,6 +119,9 @@ h4 {
   }
   .divider-vertical {
     border-right: 1px solid lightgray;
+  }
+  #form-section #input-group input {
+    width: 100%;
   }
 }
 
@@ -141,5 +148,8 @@ h4 {
 
   .divider-vertical {
     border-bottom: 1px solid lightgray;
+  }
+  #form-section form {
+    width: 100%;
   }
 }
